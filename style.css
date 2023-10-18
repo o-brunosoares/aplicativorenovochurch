@@ -33,12 +33,7 @@ main {
     gap: 15px;
 }
 
-.android {
+.android, .ios {
     width: 170px;
-    height: 50px;
-  }
-
-.ios {
-    width: 190px;
     height: 50px;
 }
