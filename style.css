@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #868685;
+    background: linear-gradient(30deg, #38197d 40%, #8c10bb) no-repeat fixed;
     font-family: sans-serif;
 }
 
