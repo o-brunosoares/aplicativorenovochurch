@@ -30,7 +30,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: 40px auto 0;
-    gap: 15px;
+    gap: 20px;
 }
 
 .android {
