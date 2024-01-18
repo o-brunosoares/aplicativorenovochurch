@@ -41,3 +41,30 @@ main {
 .ios {
     width: 170px;
 }
+
+.donations {
+    margin-top: 40px;
+    text-align: center;
+
+    >h2 {
+        color: #FFF;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    >.donate {
+        display: inline-block;
+        background-color: #160a327a;
+        padding: 40px;
+        font-weight: 600;
+        color: #FFF;
+        text-decoration: none;
+        border-radius: 6px;
+        margin: 8px;
+    }
+}
+
+.donate:hover {
+    background-color: #160a32b3;
+    transition: 0.3s ;
+}
