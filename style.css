@@ -14,11 +14,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 60px auto 0;
+    margin: 30px auto 0;
 
     >h1 {
         margin-top: 25px;
         color: #FFF;
+        text-shadow: 3px 3px 5px #1e0c45;
     }
 
     >img {
@@ -67,4 +68,19 @@ main {
 .donate:hover {
     background-color: #160a32b3;
     transition: 0.3s ;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto 0;
+
+    >nav {
+        >a {
+            >img {
+                width: 45px;
+                margin: 0 25px 2px;
+            }
+        }
+    }
 }
